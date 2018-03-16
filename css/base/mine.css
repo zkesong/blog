@@ -1,0 +1,15 @@
+/*
+  * author: kosung
+  * date: 2017-7-11
+  */
+/*button*/  
+.myBtn{border:1px solid #26CAE3;color: #26CAE3;width:100px;display: block;padding: 2px 10px;}
+.myBtn:hover{background: #26CAE3;cursor: pointer;color: white;}
+.myBtn_{width:100px;display: block;color: white;background: #26CAE3;padding: 2px 10px;border:1px solid #26CAE3;}
+.myBtn_:hover{background: #1CA7F2;cursor: pointer;}
+/*popup*/ 
+.popup-content{display: none;background: white;position: fixed;left: 50%;top: 30%;z-index: 5;margin: 0 0 0 -200px;padding: 24px;width: 30%;height:160px;}
+.popup-content .inner .hd{font-size: 20px;}
+.popup-content .inner .content{margin: 20px auto;font-size: 14px;color: #777;}
+.popup-content .inner .actions{float: right;} 
+.popup-content .inner .actions span{display: inline;margin: 0 5px;}

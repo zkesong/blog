@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>博客信息</title>
+<meta name="keywords" content="keyword1,keyword2,keyword3">
+<meta name="description" content="this is my page">
+<link rel="shortcut icon" href="../../img/icon/site-logo.ico" />
+<link rel="stylesheet" type="text/css"
+	href="../../css/bootstrap.min.css" />
+<link rel="stylesheet" href="../../css/base/mine.css" />
+<style type="text/css">
+  body{
+    background-image: url(../../img/bg/bj.png);
+  }
+
+  form{
+    width: 30%;
+    margin: 40px auto;
+  }
+  form input[type="submit"]{
+    width: 80%;
+    margin-left: 45px;
+  }
+  form .controls textarea{
+    height: 100px;
+  }
+</style>
+</head>
+<body>
+	<form class="form-horizontal" method="post" action="../../main/blog">
+	    <div class="control-group">
+	       <img src="../../img/bg/ai.jpg" alt="博客" width="60%" height="160"/>
+	    </div>
+		<div class="control-group">
+			<label class="control-label" for="input01">标题</label>
+			<div class="controls">
+				<input type="text" name="btitle" class="form-control">
+				<p class="help-block">一个博客的标题</p>
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="input01">类别</label>
+			<div class="controls">
+				<input type="text" name="btype" class="form-control">
+				<p class="help-block">博客所属的主要领域</p>
+			</div>
+		</div>
+		<div class="control-group">
+			<label class="control-label" for="input01">简介</label>
+			<div class="controls">
+				<textarea name="binfo" class="form-control"></textarea>
+				<p class="help-block">博客内容简介</p>
+			</div>
+		</div>
+		<div class="control-group">
+			<div class="controls">
+				<input  type="submit" class="btn btn-success" value="下一步"/>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
+

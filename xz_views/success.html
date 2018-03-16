@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>注册成功</title>
+<link rel="shortcut icon" href="../img/icon/site-logo.ico" />
+</head>
+<body style="line-height: 600px;">
+	<div style="margin-left: 30%;">
+		恭喜您，已经注册成功！
+		<mark id="time">5</mark>
+		秒后自动跳转到主页进行登录 无法跳转，<a id='link' href="../welcome.jsp">点击返回主页</a>
+	</div>
+</body>
+<script type="text/javascript">
+	var time = document.getElementById('time');
+	var value = time.innerHTML;
+	var timer = setInterval(function() {
+		value--;
+		time.innerHTML = value;
+		if (value == 0) {
+			window.clearInterval(timer);
+			window.location = document.getElementById('link').href;
+		}
+	}, 1000);
+</script>
+</html>

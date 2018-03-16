@@ -1,0 +1,5 @@
+ul > li{margin: 10px ! important;}
+.breadcrumb{margin-left: 5% ! important;margin-bottom: 0;width: 90%;margin-left: 5%;}
+.mainBox{margin-top: 0;}
+.article-bottom{border-top:1px solid #ccc;width: 100%;padding-top: 10px;}
+.nextBlog:hover{color: white ! important;text-decoration: none ! important;}
